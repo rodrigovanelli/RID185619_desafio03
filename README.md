@@ -1,93 +1,94 @@
-# RID185619_desafio03
-# Desafio: Construa um Gerenciador de Tarefas
+📌 RID185619_desafio03
 
-# 🚀 Desafio
+Desafio: Construa um Gerenciador de Tarefas
 
-## Construa um Gerenciador de Tarefas
+Este é o meu projeto de estudos no curso da DNC Technologies.
+Aqui, a missão é transformar um layout estático em um Gerenciador de Tarefas dinâmico e funcional, colocando em prática conceitos de HTML, CSS e JavaScript.
 
-<aside>
-📎 **Arquivos do Desafio**: 
-- Link do Figma: [**Clique aqui**](https://www.figma.com/design/GZzqLg5ATOLfOh7Ea7Guee/Desafio---Board-de-Tarefas-DNC?node-id=1-49&t=gEFDeujY2VrhSM6S-1)
+Criei este repositório para acompanhar a evolução do desenvolvimento e também para compartilhar todo o material de apoio utilizado no processo.
 
-**Dica:** Ao abrir o Figma, na lateral esquerda você consegue acessar a Thumbnail, o Protótipo e os Components
+⸻
 
-</aside>
+🚀 Sobre o Desafio
 
-> Transforme uma plataforma estática em uma experiência dinâmica e interativa. Para isso, você deve criar a estrutura completa de um board de gerenciamento de tarefas, aplicando boas práticas de HTML, CSS, e JavaScript para garantir que o site seja responsivo e responda às interações dos usuários em tempo real.
-> 
+A proposta é simples e direta:
+	•	Pegar um protótipo no Figma.
+	•	Construir toda a estrutura com HTML e CSS.
+	•	Tornar a aplicação interativa com JavaScript, manipulando o DOM.
 
-## Contexto
+O objetivo final é que o usuário possa gerenciar suas tarefas em tempo real: adicionar, marcar como concluídas e acompanhar um contador atualizado — tudo isso de forma fluída, sem precisar recarregar a página.
 
-Você está iniciando o desenvolvimento de um novo site para a **DNC Technologies**. A parte visual já foi implementada, mas o site ainda está totalmente estático, sem nenhuma interatividade.
+⸻
 
-*→ Isso significa que nossos usuários, por enquanto, não conseguem adicionar produtos ao carrinho, filtrar itens ou visualizar detalhes dos produtos.*
+📎 Materiais de Apoio
+	•	Protótipo no Figma: Clique aqui para acessar
+(Na lateral esquerda do Figma é possível acessar a Thumbnail, o Protótipo e os Components)
+	•	Fonte usada no projeto: Rubik (Google Fonts)
+	•	Ferramentas extras de apoio:
+	•	draw.io ou excalidraw.com para rascunhos da estrutura.
+	•	MDN Web Docs como referência de HTML, CSS e JavaScript.
 
-**Nosso próximo passo é crucial: precisamos transformar essa base visual em uma experiência interativa e fluída.**
+⸻
 
-Nossos usuários precisam ser capazes de interagir com o site de maneira dinâmica através de uma funcionalidade de carrinho, de um sistema de gerenciamento de tarefas e ações simples como o envio de formulários e cliques em botões. Tudo isso deve acontecer sem a necessidade de recarregar a página, proporcionando uma experiência contínua e satisfatória.
+🎯 Etapas de Desenvolvimento
 
-## Como começar?
+1) Análise do Projeto no Figma
+	•	Revisar o protótipo nas versões desktop e mobile.
+	•	Identificar os blocos principais: header, footer, main.
+	•	Planejar se vou usar flexbox ou grid para a responsividade.
 
-Nesse desafio, sua missão é criar um site que ofereça essa experiência dinâmica e interativa. 
+2) Estruturação do Layout (HTML)
+	•	Criar a base em HTML.
+	•	Garantir que a marcação seja limpa e organizada.
+	•	Focar no conceito de Mobile First (mesmo que inicialmente eu tenha feito desktop).
 
-- Inicie desenvolvendo a estrutura desse site de gerenciamento de tarefas com HTML e CSS
-- Para a interação e modificação do conteúdo, estrutura e estilo dos componentes, manipule o DOM com Javascript
+3) Estilização com CSS
+	•	Primeira versão: desktop concluída.
+	•	Próxima etapa: ajustar para mobile.
+	•	Aplicar boas práticas de responsividade (usar rem, evitar valores fixos).
 
-# 🎯 Etapas de Desenvolvimento
+4) Funcionalidades com JavaScript
+	•	Renderizar uma lista inicial de tarefas ao carregar a página.
+	•	Permitir adicionar novas tarefas.
+	•	Botão “Concluir” → riscar tarefa, trocar por ícone de check ✅.
+	•	Atualizar contador de tarefas concluídas em tempo real.
 
-Para te ajudar no desenvolvimento do gerenciador de tarefas, você terá algumas etapas importantes para seguir:
+⸻
 
-[](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+📊 Status do Projeto
+	•	🟢 Em desenvolvimento
+	•	✅ HTML pronto.
+	•	✅ CSS (desktop) concluído.
+	•	🔜 CSS para mobile.
+	•	🔜 Implementação de funcionalidades em JavaScript.
 
-## **Etapa 01) Análise do Projeto no Figma**
+⸻
 
-Nesta etapa, seu objetivo é analisar o protótipo fornecido pelo UX Designer, considerando tanto a versão mobile quanto a desktop, para planejar como iniciar o desenvolvimento do código. Para isso:
+🛠️ Tecnologias Utilizadas
+	•	HTML5 → Estrutura do projeto.
+	•	CSS3 → Estilização, já finalizada para desktop.
+	•	JavaScript (DOM) → Interatividade (em breve).
+	•	Git + GitHub → Versionamento e registro da evolução do projeto.
 
-1. Examine a estrutura do protótipo no Figma para visualizar a organização do HTML que você precisará implementar.
-2. Faça um rascunho da estrutura básica do site, seja no papel ou em ferramentas como [draw.io](http://draw.io/) ou [excalidraw.com](http://excalidraw.com/). 
-3. **Identifique os principais blocos, como header, footer, e main, e defina se utilizará flexbox ou grid para resolver questões de responsividade**
+⸻
 
-<aside>
-💡 **Dica:** Ao fazer o rascunho da estrutura, considere como os elementos se comportarão em diferentes resoluções. Isso pode ajudar a evitar ajustes maiores no futuro e garantir que o layout funcione perfeitamente em todos os dispositivos desde o início.
+📌 Roadmap
+	•	Estrutura em HTML
+	•	CSS Desktop
+	•	CSS Mobile (responsividade)
+	•	Renderização inicial de tarefas (JS)
+	•	Adicionar novas tarefas
+	•	Marcar como concluídas
+	•	Atualizar contador
+	•	Armazenar no LocalStorage
 
-</aside>
+⸻
 
-## **Etapa 02) Estruturação do layout básico HTML**
+🙋 Sobre mim
 
-Nesta etapa, você irá criar a estrutura básica do nosso projeto, organizando os arquivos HTML e CSS, e estruturando o layout inicial do nosso site. Não é necessário se preocupar com a estilização detalhada dos componentes, como cores ou fontes, nem com a inserção de imagens. **O foco aqui é transpor para o HTML a estrutura que imaginamos ao desenhar o site anteriormente.**
+Sou estudante de Engenharia de Software e também faço o curso de Desenvolvedor Front-End pela DNC.
+Este projeto é parte da minha jornada de aprendizado, onde coloco em prática tanto a base de desenvolvimento quanto o fluxo de versionamento com GitHub.
 
-Isso significa que agora você deve escrever o código HTML e aplicar os estilos básicos de layout para garantir que ele seja responsivo, **adaptando-se tanto a dispositivos móveis quanto a desktops.**
+Quero deixar registrado aqui não apenas o resultado final, mas cada etapa da construção — mostrando a evolução de um projeto do zero ao funcional.
 
-<aside>
-💡 **Dica:** Comecem sempre desenvolvendo a versão mobile primeiro. Essa prática é chamada de Mobile First no Desenvolvimento Front-End, onde focamos em criar a interface mobile primeiro, para só depois irmos expandindo o código para funcionar no celular.
-
-</aside>
-
-## **Etapa 03) Finalize a estilização e a estrutura da página**
-
-Com a estrutura básica do layout definida e funcionando tanto em mobile quanto em desktop, é hora de finalizar a criação do site, inserindo os assets e ajustando os tamanhos. Além disso, deve-se definir as fontes, aplicando os tamanhos e espaçamentos adequados.
-
-*— Utilizar a fonte Rubik para manter o desenvolvimento fiel ao protótipo. (*https://fonts.google.com/specimen/Rubik)
-
-<aside>
-💡 **Dica:** Um ponto importante a lembrar é a utilização de unidades de medida relativas, como `rem`, para assegurar que nosso layout seja totalmente responsivo.
-
-</aside>
-
-## **Etapa 04) Faça a mágica acontecer com o Javascript!**
-
-Agora que toda a estrutura do nosso site está pronta e estilizada, é hora de torná-lo dinâmico! Atente-se aos requisitos abaixo para deixar o seu gerenciador de tarefas funcional.
-
-**Requisitos:**
-
-1. A página deve carregar automaticamente uma lista de tarefas na renderização inicial.
-2. Ao preencher o formulário e adicionar uma nova tarefa, ela deve aparecer no board de gerenciamento. 
-3. Quando o usuário clicar em "Concluir", a tarefa será marcada como concluída
-4. O botão "Concluir" será substituído por um ícone de check
-5. O nome da tarefa deverá ficar riscado (strikethrough)
-6. O contador de tarefas deve ser atualizado na parte inferior sempre que uma tarefa for concluída.
-
-<aside>
-💡 **Dica:** Ao implementar a atualização do contador e a marcação de tarefas como concluídas, verifique se os estados do aplicativo estão sendo corretamente gerenciados para evitar inconsistências.
-
-</aside>
+⸻
