@@ -59,7 +59,7 @@ O objetivo final é que o usuário possa gerenciar suas tarefas em tempo real: a
 	•	🟢 Em desenvolvimento
 	•	✅ HTML pronto.
 	•	✅ CSS (desktop) concluído.
-	•	🔜 CSS para mobile.
+	•	✅ CSS para mobile.
 	•	🔜 Implementação de funcionalidades em JavaScript.
 
 ⸻
