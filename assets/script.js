@@ -22,7 +22,7 @@ const renderTasks = (tasks) => {
             const titleTaskDone = li.querySelector('.title-task');
             titleTaskDone.classList.add('checked');
             btn.disabled = true;
-            btn.innerHTML = `<img src="/assets/icons/Checked.png" width="32px" heigh="32px" alt="Tarefa concluída">`;
+            btn.innerHTML = `<img src="/assets/icons/Checked.svg" width="32px" heigh="32px" alt="Tarefa concluída">`;
             btn.style.padding = '0';
             btn.style.border = 'none';
             btn.style.backgroundColor = 'transparent';
