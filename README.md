@@ -55,15 +55,6 @@ O objetivo final é que o usuário possa gerenciar suas tarefas em tempo real: a
 
 ⸻
 
-📊 Status do Projeto
-	•	🟢 Concluído!
-	•	✅ HTML pronto.
-	•	✅ CSS (desktop) concluído.
-	•	✅ CSS para mobile ok.
-	•	✅ Implementação de funcionalidades em JavaScript feita.
-
-⸻
-
 🛠️ Tecnologias Utilizadas
 	•	HTML5 → Estrutura do projeto.
 	•	CSS3 → Estilização, já finalizada para desktop.
@@ -81,6 +72,16 @@ O objetivo final é que o usuário possa gerenciar suas tarefas em tempo real: a
 	•	Marcar como concluídas
 	•	Atualizar contador
 	•	Armazenar no LocalStorage
+
+⸻
+
+📊 Status do Projeto
+	•	🟢 Concluído!
+	•	✅ HTML pronto.
+	•	✅ CSS (desktop) concluído.
+	•	✅ CSS para mobile ok.
+	•	✅ Implementação de funcionalidades em JavaScript feita.
+    🔗 Link para acessar o projeto finalizado (hospedado no netlify): https://desafio-board-de-tarefas.netlify.app/
 
 ⸻
 
