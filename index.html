@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +9,15 @@
 <body>
     <main>
         <h1>Board de tarefas</h1>
-        <form action="">
-            <input id="nome-da-tarefa" type="text" placeholder="Nome da tarefa">
-            <input id="etiqueta-da-tarefa" type="text" placeholder="Etiqueta">
+        <form id="create-task-form">
+            <input id="get-task-name" type="text" placeholder="Nome da tarefa">
+            <input id="get-task-tag" type="text" placeholder="Etiqueta">
             <button type="submit">+</button>
         </form>
-        <ul id="lista-de-tarefas"></ul>
+        <ul id="tasks-list"></ul>
         <hr>
-        <p id="progresso">1 tarefa concluída</p>
+        <p id="progress"></p>
+        <button class="btn-delete" onclick="deleteTasksDone()">Excluir tarefas concluídas</button>
     </main>
     <script src="/assets/script.js"></script>
 </body>

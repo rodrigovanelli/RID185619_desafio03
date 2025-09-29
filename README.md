@@ -56,11 +56,11 @@ O objetivo final é que o usuário possa gerenciar suas tarefas em tempo real: a
 ⸻
 
 📊 Status do Projeto
-	•	🟢 Em desenvolvimento
+	•	🟢 Concluído!
 	•	✅ HTML pronto.
 	•	✅ CSS (desktop) concluído.
-	•	✅ CSS para mobile.
-	•	🔜 Implementação de funcionalidades em JavaScript.
+	•	✅ CSS para mobile ok.
+	•	✅ Implementação de funcionalidades em JavaScript feita.
 
 ⸻
 
