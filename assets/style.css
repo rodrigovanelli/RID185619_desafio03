@@ -176,6 +176,7 @@ main {
             color: rgba(177, 186, 203, 1);
             font-size: 1rem;
             text-align: end;
+            margin-bottom: 20px;
         }
     }
 
