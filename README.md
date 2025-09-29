@@ -21,10 +21,9 @@ O objetivo final é que o usuário possa gerenciar suas tarefas em tempo real: a
 ⸻
 
 📎 Materiais de Apoio
-	•	Protótipo no Figma: Clique aqui para acessar
-	•	Fonte usada no projeto: Rubik (Google Fonts)
-	•	Ferramentas extras de apoio:
-	•	draw.io ou excalidraw.com para rascunhos da estrutura.
+	•	Protótipo no Figma
+	•	Fonte Google Fonts
+	•	Ferramentas extras de apoio: draw.io ou excalidraw.com para rascunhos da estrutura.
 
 ⸻
 
